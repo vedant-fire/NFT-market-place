@@ -21,7 +21,7 @@ error PriceMustBeAboveZero();
 
 contract NftMarketplace is ReentrancyGuard {
     struct Listing {
-        uint256 price;
+        uint256 price
         address seller;
     }
 
